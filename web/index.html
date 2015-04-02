@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Media Request</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/TestScript.js"></script>
+        
+    </head>
+    <body>
+        <div>
+            <form name="media-request" action="StoreRequest">
+                Enter request:
+                <input type="text" id="media-name" value="" />
+                <input type="button" value="Sumbit" id="submit-request"/>
+            </form>
+            <input type="button" value="Get Requests" id="get-requests" />
+            <ul id="request-list">
+            </ul>
+        </div>
+    </body>
+</html>
